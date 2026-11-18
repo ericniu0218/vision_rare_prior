@@ -1,0 +1,81 @@
+{
+  "kind": "synthetic scalar model",
+  "observation": 0.18,
+  "gain": 0.25,
+  "sigma": 0.1,
+  "steps": 100,
+  "rows": [
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 67,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.016357421875
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 436,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.1064453125
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 1009,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.246337890625
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 430,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.10498046875
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 1505,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.367431640625
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 2747,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.670654296875
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 2034,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.49658203125
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 3618,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.88330078125
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 3999,
+      "n_chains": 4096,
+      "simulated_dps_mass": 0.976318359375
+    }
+  ]
+}

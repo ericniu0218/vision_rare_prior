@@ -1,0 +1,21 @@
+{
+  "diffpir": {
+    "n_sites": 55,
+    "n_erased": 8,
+    "auroc": {
+      "det_residual": 0.6063829787234043,
+      "det_semantic": 0.35904255319148937,
+      "det_variance": 0.47606382978723405
+    },
+    "det_residual_minus_variance": {
+      "delta": 0.13031914893617025,
+      "ci_low": -0.20000000000000007,
+      "ci_high": 0.26118067978533094
+    },
+    "det_semantic_minus_variance": {
+      "delta": -0.11702127659574468,
+      "ci_low": -0.38823529411764707,
+      "ci_high": 0.01388888888888895
+    }
+  }
+}

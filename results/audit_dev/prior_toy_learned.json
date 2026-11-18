@@ -1,0 +1,280 @@
+{
+  "kind": "synthetic scalar model",
+  "observation": 0.18,
+  "gain": 0.25,
+  "sigma": 0.1,
+  "steps": 100,
+  "rows": [
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 17,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.00830078125,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.026288505643606186
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 169,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.08251953125,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.026288505643606186
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 528,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.2578125,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.026288505643606186
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 6,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.0029296875,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.07555396854877472
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 48,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.0234375,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.07555396854877472
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 355,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.17333984375,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.07555396854877472
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 18,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.0087890625,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.027194254100322723
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 189,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.09228515625,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.027194254100322723
+    },
+    {
+      "prior_mass": 0.02,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.09180266987468859,
+      "reconstructed_present": 579,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.28271484375,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.027194254100322723
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 177,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.08642578125,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.014521426521241665
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 749,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.36572265625,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.014521426521241665
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 1409,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.68798828125,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.014521426521241665
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 164,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.080078125,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.017603997141122818
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 714,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.3486328125,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.017603997141122818
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 1406,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.6865234375,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.017603997141122818
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 70,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.0341796875,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.0379137322306633
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 446,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.2177734375,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.0379137322306633
+    },
+    {
+      "prior_mass": 0.1,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.3549789231289511,
+      "reconstructed_present": 1069,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.52197265625,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.0379137322306633
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1059,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.51708984375,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.029608607292175293
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1816,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.88671875,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.029608607292175293
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 2007,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.97998046875,
+      "training_seed": 0,
+      "max_grid_score_mae": 0.029608607292175293
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1027,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.50146484375,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.04187483713030815
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1800,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.87890625,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.04187483713030815
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 2010,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.9814453125,
+      "training_seed": 1,
+      "max_grid_score_mae": 0.04187483713030815
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 841,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.41064453125,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.02982337214052677
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 0.3,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1704,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.83203125,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.02982337214052677
+    },
+    {
+      "prior_mass": 0.5,
+      "guidance_scale": 1.0,
+      "exact_posterior_mass": 0.8320183851339245,
+      "reconstructed_present": 1982,
+      "n_chains": 2048,
+      "simulated_dps_mass": 0.9677734375,
+      "training_seed": 2,
+      "max_grid_score_mae": 0.02982337214052677
+    }
+  ],
+  "training_updates": 2000
+}

@@ -1,0 +1,9 @@
+# CPU smoke test on synthetic 1/f images (no downloads). Not a result.
+defaults: base.yaml
+name: smoke_synthetic
+data: {kind: synthetic, size: 128, channels: 3}
+n_images: 4
+operator: {kind: blur, kernel_size: 31, std: 2.0, sigma: 0.05}
+insert: {margin: 20, min_sep: 36, ctrl_sep: 18, dprime_kind: bke, power_spectrum: null}
+solver: {name: tikhonov, label: tikhonov, lam: 0.01, iters: 60}
+counterfactual: true

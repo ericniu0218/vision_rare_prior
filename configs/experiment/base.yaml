@@ -1,0 +1,18 @@
+# Shared defaults. Experiments inherit with `defaults: base.yaml`.
+out_root: artifacts
+split: dev
+arm: ffhq_blur
+severity: S1
+counterfactual: false
+lpips: false
+save_full: 2
+insert:
+  n_features: 6
+  n_controls: 8
+  margin: 32
+  min_sep: 48
+  ctrl_sep: 24
+  dprimes: [1.0, 2.0]          # revised on dev: stationary-Hotelling (BKS) d', see STATUS.md
+  dprime_kind: bks
+  power_spectrum: results/ffhq_power_spectrum_256.pt
+  value_range: [-1.0, 1.0]

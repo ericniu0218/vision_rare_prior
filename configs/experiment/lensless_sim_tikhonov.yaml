@@ -1,0 +1,9 @@
+# Lensless arm, simulated, linear reconstruction (CPU-feasible). psf_npy from design_psf.py.
+defaults: base.yaml
+name: lensless_sim_tikhonov
+arm: lensless_sim
+data: {kind: diffusercam_lensed, size: 128}
+n_images: 30
+operator: {kind: lensless, size: 128, sigma: 0.01, psf_npy: null}
+insert: {margin: 16, min_sep: 32, ctrl_sep: 16, amplitude_mode: fixed, power_spectrum: null}
+solver: {name: tikhonov, label: tikhonov, lam: 0.001, iters: 150}

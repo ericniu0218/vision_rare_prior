@@ -1,0 +1,14 @@
+{
+  "device": "cpu",
+  "checkpoint_sha256": "81d535743156ec6be34d8668e6920da94f0614074d7793a16c8fa9e306237faa",
+  "network_output_max_diff": 0.0,
+  "operator_max_diff": 0.0,
+  "respacing": "1000",
+  "step_max_diffs": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "own_seconds_per_step": 2.59349258740743,
+  "torch": "2.14.1"
+}

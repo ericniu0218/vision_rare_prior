@@ -1,0 +1,158 @@
+{
+  "config": {
+    "out": "results/multiplexing_full_fov",
+    "sensor": 64,
+    "fov": "full",
+    "n_images": 20,
+    "sigma": 0.01,
+    "amplitudes": [
+      0.2,
+      0.4
+    ],
+    "lams": [
+      0.0001,
+      0.001,
+      0.01,
+      0.1
+    ],
+    "iters": 150,
+    "n_boot": 2000
+  },
+  "cameras": {
+    "lenslet_k1": {
+      "lam": 0.01,
+      "dev_psnr_for_lam": 9.654966354370117,
+      "psnr": 9.299702644348145,
+      "participation_ratio": 0.0014574164301147878,
+      "n_peaks": 1,
+      "seconds": 1.8966820240020752,
+      "survival_small": 0.3076923076923077,
+      "survival_small_in_footprint": 0.9583333333333334,
+      "survival_small_outside": 0.018518518518518517,
+      "median_camera_dprime": 1.2228887785691453e-14,
+      "ratio_median": 0.9858476184665672
+    },
+    "lenslet_k4": {
+      "lam": 0.01,
+      "dev_psnr_for_lam": 10.44247989654541,
+      "psnr": 9.83305082321167,
+      "participation_ratio": 0.006026921901660164,
+      "n_peaks": 4,
+      "seconds": 1.836357593536377,
+      "survival_small": 0.19230769230769232,
+      "survival_small_in_footprint": 0.4166666666666667,
+      "survival_small_outside": 0.09259259259259259,
+      "median_camera_dprime": 10.661027222804492,
+      "ratio_median": 1.3996719332727539
+    },
+    "lenslet_k16": {
+      "lam": 0.001,
+      "dev_psnr_for_lam": 10.869925117492675,
+      "psnr": 10.423534250259399,
+      "participation_ratio": 0.023364501624274364,
+      "n_peaks": 16,
+      "seconds": 1.7601490020751953,
+      "survival_small": 0.15384615384615385,
+      "survival_small_in_footprint": 0.375,
+      "survival_small_outside": 0.05555555555555555,
+      "median_camera_dprime": 6.3729713624205235,
+      "ratio_median": 1.0154117182724616
+    },
+    "lenslet_k64": {
+      "lam": 0.001,
+      "dev_psnr_for_lam": 11.745961952209473,
+      "psnr": 10.95710711479187,
+      "participation_ratio": 0.07993757845541498,
+      "n_peaks": 52,
+      "seconds": 1.4844694137573242,
+      "survival_small": 0.10256410256410256,
+      "survival_small_in_footprint": 0.25,
+      "survival_small_outside": 0.037037037037037035,
+      "median_camera_dprime": 3.488054070596351,
+      "ratio_median": 1.0672491234209063
+    },
+    "lenslet_k256": {
+      "lam": 0.001,
+      "dev_psnr_for_lam": 12.090828132629394,
+      "psnr": 11.392817401885987,
+      "participation_ratio": 0.2591216266946872,
+      "n_peaks": 155,
+      "seconds": 1.175429105758667,
+      "survival_small": 0.10256410256410256,
+      "survival_small_in_footprint": 0.16666666666666666,
+      "survival_small_outside": 0.07407407407407407,
+      "median_camera_dprime": 2.424798007539671,
+      "ratio_median": 0.5071973105971467
+    },
+    "diffusercam": {
+      "lam": 0.001,
+      "dev_psnr_for_lam": 12.593587303161621,
+      "psnr": 11.85239577293396,
+      "participation_ratio": 0.45460610975171195,
+      "n_peaks": 98,
+      "seconds": 0.8593142032623291,
+      "survival_small": 0.0641025641025641,
+      "survival_small_in_footprint": 0.16666666666666666,
+      "survival_small_outside": 0.018518518518518517,
+      "median_camera_dprime": 2.0369497445871074,
+      "ratio_median": 0.9679676351036895
+    }
+  },
+  "contrasts_small": {
+    "lenslet_k1_minus_diffusercam": {
+      "S_a": 0.4083333333333333,
+      "S_b": 0.06388888888888888,
+      "delta": 0.34444444444444444,
+      "ci_low": 0.17360416666666664,
+      "ci_high": 0.39883928571428556,
+      "n_images": 20,
+      "n_boot": 2000,
+      "boot_sd": 0.05645496441643654,
+      "p_value": 0.001
+    },
+    "lenslet_k4_minus_diffusercam": {
+      "S_a": 0.2111111111111111,
+      "S_b": 0.06388888888888888,
+      "delta": 0.14722222222222223,
+      "ci_low": 0.027777777777777776,
+      "ci_high": 0.19999999999999998,
+      "n_images": 20,
+      "n_boot": 2000,
+      "boot_sd": 0.04313055448028534,
+      "p_value": 0.016
+    },
+    "lenslet_k16_minus_diffusercam": {
+      "S_a": 0.17611111111111113,
+      "S_b": 0.06388888888888888,
+      "delta": 0.11222222222222225,
+      "ci_low": 0.00242552334943639,
+      "ci_high": 0.19166769293924465,
+      "n_images": 20,
+      "n_boot": 2000,
+      "boot_sd": 0.04853720533867867,
+      "p_value": 0.047
+    },
+    "lenslet_k64_minus_diffusercam": {
+      "S_a": 0.09722222222222222,
+      "S_b": 0.06388888888888888,
+      "delta": 0.03333333333333334,
+      "ci_low": -0.037037037037037035,
+      "ci_high": 0.1478027950310559,
+      "n_images": 20,
+      "n_boot": 2000,
+      "boot_sd": 0.04673370442195943,
+      "p_value": 0.263
+    },
+    "lenslet_k256_minus_diffusercam": {
+      "S_a": 0.09000000000000001,
+      "S_b": 0.06388888888888888,
+      "delta": 0.026111111111111127,
+      "ci_low": -0.022492784992785,
+      "ci_high": 0.08333333333333334,
+      "n_images": 20,
+      "n_boot": 2000,
+      "boot_sd": 0.026509985070683702,
+      "p_value": 0.257
+    }
+  }
+}

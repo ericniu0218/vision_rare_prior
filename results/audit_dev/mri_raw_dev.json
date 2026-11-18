@@ -1,0 +1,266 @@
+{
+  "archive": "Stanford legacy knee case 1, engineering development",
+  "archive_sha256": "73205885a648746ecc19ca4ba7faa30ef5781245fccd62a04899a124a632bd22",
+  "header_shape": [
+    320,
+    320,
+    256,
+    8,
+    1
+  ],
+  "sigpy": "0.1.27",
+  "torch": "2.15.0",
+  "n_acquisitions": 1,
+  "n_slices": 3,
+  "rows": [
+    {
+      "slice": 144,
+      "target_accel": 4,
+      "actual_accel": 3.9091429662149264,
+      "native_support_accel": 3.9091429662149264,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.446424087400374e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.15542473207222393,
+          "relative_sampled_residual": 0.18852725625038147,
+          "paired_amplitude_response": [
+            0.7863028953359065,
+            0.38224467305920573
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.11013150618589558,
+          "relative_sampled_residual": 0.14663464985364222,
+          "paired_amplitude_response": [
+            0.9862571484776889,
+            0.9180319254862241
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.11934223126202445,
+          "relative_sampled_residual": 0.1467383658784915,
+          "paired_amplitude_response": [
+            0.9981956553583259,
+            0.9621207236458817
+          ]
+        }
+      },
+      "rss_q99_scale": 6608640.0
+    },
+    {
+      "slice": 144,
+      "target_accel": 8,
+      "actual_accel": 8.009385999217834,
+      "native_support_accel": 8.009385999217834,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.409008328020718e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.19659216752898226,
+          "relative_sampled_residual": 0.15879566967487335,
+          "paired_amplitude_response": [
+            0.7338838611915692,
+            0.2256698980767489
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.15841766266704915,
+          "relative_sampled_residual": 0.10405723969818688,
+          "paired_amplitude_response": [
+            0.9824908552727079,
+            0.7295821914632661
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.15665882696516753,
+          "relative_sampled_residual": 0.1050073381670513,
+          "paired_amplitude_response": [
+            0.9975883905304018,
+            0.7122692985967226
+          ]
+        }
+      },
+      "rss_q99_scale": 6608640.0
+    },
+    {
+      "slice": 160,
+      "target_accel": 4,
+      "actual_accel": 3.9091429662149264,
+      "native_support_accel": 3.9091429662149264,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.508018194992474e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.15885309882558105,
+          "relative_sampled_residual": 0.18153667449951172,
+          "paired_amplitude_response": [
+            0.7864229252056101,
+            0.39515957726752376
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.1053696580611342,
+          "relative_sampled_residual": 0.13819086940795017,
+          "paired_amplitude_response": [
+            0.9862117996611649,
+            0.9299458629492082
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.11245455502594169,
+          "relative_sampled_residual": 0.1383026975924096,
+          "paired_amplitude_response": [
+            0.9975050216269478,
+            0.9855401479860393
+          ]
+        }
+      },
+      "rss_q99_scale": 6939509.0
+    },
+    {
+      "slice": 160,
+      "target_accel": 8,
+      "actual_accel": 8.009385999217834,
+      "native_support_accel": 8.009385999217834,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.401039591239169e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.20112440279476312,
+          "relative_sampled_residual": 0.15503892302513123,
+          "paired_amplitude_response": [
+            0.7350910669440501,
+            0.2405643801653427
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.15146586886095306,
+          "relative_sampled_residual": 0.09883608151465474,
+          "paired_amplitude_response": [
+            0.9824968687228184,
+            0.7736280675963525
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.1477584920438167,
+          "relative_sampled_residual": 0.09973583198479913,
+          "paired_amplitude_response": [
+            0.9967893383168336,
+            0.9776234092841386
+          ]
+        }
+      },
+      "rss_q99_scale": 6939509.0
+    },
+    {
+      "slice": 176,
+      "target_accel": 4,
+      "actual_accel": 3.9091429662149264,
+      "native_support_accel": 3.9091429662149264,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.315948545918218e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.1413064140033474,
+          "relative_sampled_residual": 0.16852444410324097,
+          "paired_amplitude_response": [
+            0.7869383934126746,
+            0.39755519828807057
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.09917564952294863,
+          "relative_sampled_residual": 0.13136882863845126,
+          "paired_amplitude_response": [
+            0.9859012274430569,
+            0.9292005901498475
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.10587482676993942,
+          "relative_sampled_residual": 0.1314801308471169,
+          "paired_amplitude_response": [
+            0.9986869208636646,
+            0.9433549701026942
+          ]
+        }
+      },
+      "rss_q99_scale": 7413132.0
+    },
+    {
+      "slice": 176,
+      "target_accel": 8,
+      "actual_accel": 8.009385999217834,
+      "native_support_accel": 8.009385999217834,
+      "acs_width": 24,
+      "relative_adjoint_error": 9.246556942343886e-08,
+      "solver": {
+        "adjoint": {
+          "mag_nrmse_vs_full_sense": 0.17696487587405935,
+          "relative_sampled_residual": 0.14225870370864868,
+          "paired_amplitude_response": [
+            0.7339615861800054,
+            0.24110795395105256
+          ]
+        },
+        "sense": {
+          "mag_nrmse_vs_full_sense": 0.13960320757517883,
+          "relative_sampled_residual": 0.09593928003671617,
+          "paired_amplitude_response": [
+            0.9823055475342646,
+            0.7613804302298248
+          ]
+        },
+        "l1wavelet": {
+          "mag_nrmse_vs_full_sense": 0.1352846445673238,
+          "relative_sampled_residual": 0.0968336882923629,
+          "paired_amplitude_response": [
+            0.9976263436442147,
+            0.7767100115898145
+          ]
+        }
+      },
+      "rss_q99_scale": 7413132.0
+    }
+  ],
+  "zero_padding_control": {
+    "slice": 160,
+    "target_accel": 4,
+    "actual_accel": 4.000520901159005,
+    "native_support_accel": 2.5648893202667584,
+    "acs_width": 24,
+    "relative_adjoint_error": 1.2334167820426956e-07,
+    "solver": {
+      "adjoint": {
+        "mag_nrmse_vs_full_sense": 0.13883034779687145,
+        "relative_sampled_residual": 0.19585463404655457,
+        "paired_amplitude_response": [
+          0.7318165779646326,
+          0.3902888278718397
+        ]
+      },
+      "sense": {
+        "mag_nrmse_vs_full_sense": 0.07980949398144663,
+        "relative_sampled_residual": 0.16081831570278307,
+        "paired_amplitude_response": [
+          0.9853807544255474,
+          0.9283670287746312
+        ]
+      },
+      "l1wavelet": {
+        "mag_nrmse_vs_full_sense": 0.08474423790505932,
+        "relative_sampled_residual": 0.16076953845603836,
+        "paired_amplitude_response": [
+          0.9993687707165573,
+          0.9572176012685727
+        ]
+      }
+    },
+    "rss_q99_scale": 4618384.5,
+    "matrix_shape": [
+      480,
+      384
+    ]
+  }
+}

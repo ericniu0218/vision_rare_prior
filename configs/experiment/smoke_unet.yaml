@@ -1,0 +1,5 @@
+defaults: base.yaml
+name: smoke_unet
+data: {kind: synthetic, size: 64, channels: 3}
+operator: {kind: blur, kernel_size: 31, std: 2.0, sigma: 0.05}
+unet: {steps: 30, batch: 4, lr: 0.0002, base: 16, levels: 3, n_train: 16}

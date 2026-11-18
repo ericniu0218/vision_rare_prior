@@ -1,0 +1,1675 @@
+{
+  "n_images": 24,
+  "dataset": "COCO val2017 annotated development subset",
+  "model": "FasterRCNN_MobileNet_V3_Large_FPN_Weights.COCO_V1",
+  "torchvision": "0.29.2",
+  "size_px": 640,
+  "rows": [
+    {
+      "image_id": 724,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 724,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388515
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 724,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 724,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388515
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 724,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 724,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388515
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1383804
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1383804
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1383804
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 2006,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 8762,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 4,
+      "detected": 2,
+      "unmatched_predictions": 6,
+      "small_box_ids": [
+        404513,
+        407115,
+        408905,
+        1380897
+      ],
+      "detected_small_box_ids": [
+        404513,
+        407115
+      ]
+    },
+    {
+      "image_id": 8762,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 8762,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 4,
+      "detected": 3,
+      "unmatched_predictions": 2,
+      "small_box_ids": [
+        404513,
+        407115,
+        408905,
+        1380897
+      ],
+      "detected_small_box_ids": [
+        404513,
+        407115,
+        1380897
+      ]
+    },
+    {
+      "image_id": 8762,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 8762,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 4,
+      "detected": 3,
+      "unmatched_predictions": 2,
+      "small_box_ids": [
+        404513,
+        407115,
+        408905,
+        1380897
+      ],
+      "detected_small_box_ids": [
+        404513,
+        407115,
+        1380897
+      ]
+    },
+    {
+      "image_id": 8762,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 2,
+      "small_box_ids": [
+        406334,
+        2058468
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 3,
+      "small_box_ids": [
+        406334,
+        2058468
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 2,
+      "small_box_ids": [
+        406334,
+        2058468
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 11197,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 21839,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        406509
+      ],
+      "detected_small_box_ids": [
+        406509
+      ]
+    },
+    {
+      "image_id": 21839,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 21839,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        406509
+      ],
+      "detected_small_box_ids": [
+        406509
+      ]
+    },
+    {
+      "image_id": 21839,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 21839,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        406509
+      ],
+      "detected_small_box_ids": [
+        406509
+      ]
+    },
+    {
+      "image_id": 21839,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1804966
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1804966
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1804966
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 26204,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 32941,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 3,
+      "small_box_ids": [
+        410174
+      ],
+      "detected_small_box_ids": [
+        410174
+      ]
+    },
+    {
+      "image_id": 32941,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 32941,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        410174
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 32941,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 32941,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        410174
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 32941,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 9,
+      "small_box_ids": [
+        1383523
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 3,
+      "small_box_ids": [
+        1383523
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1383523
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 54967,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 57149,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 1,
+      "unmatched_predictions": 4,
+      "small_box_ids": [
+        405223,
+        407739
+      ],
+      "detected_small_box_ids": [
+        405223
+      ]
+    },
+    {
+      "image_id": 57149,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 57149,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 4,
+      "small_box_ids": [
+        405223,
+        407739
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 57149,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 57149,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        405223,
+        407739
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 57149,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 61268,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1385164,
+        1386651,
+        2058521
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 61268,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 61268,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 1,
+      "unmatched_predictions": 1,
+      "small_box_ids": [
+        1385164,
+        1386651,
+        2058521
+      ],
+      "detected_small_box_ids": [
+        1385164
+      ]
+    },
+    {
+      "image_id": 61268,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 61268,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1385164,
+        1386651,
+        2058521
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 61268,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1382374
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1382374
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1382374
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 71877,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1381942
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1381942
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1381942
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 76547,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269838,
+        1388498
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269838,
+        1388498
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 82846,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 2,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269838,
+        1388498
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88432,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 2,
+      "unmatched_predictions": 2,
+      "small_box_ids": [
+        403176,
+        404317,
+        407368
+      ],
+      "detected_small_box_ids": [
+        403176,
+        404317
+      ]
+    },
+    {
+      "image_id": 88432,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88432,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        403176,
+        404317,
+        407368
+      ],
+      "detected_small_box_ids": [
+        404317
+      ]
+    },
+    {
+      "image_id": 88432,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88432,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 3,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        403176,
+        404317,
+        407368
+      ],
+      "detected_small_box_ids": [
+        404317
+      ]
+    },
+    {
+      "image_id": 88432,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388538
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388538
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 88462,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388538
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2209463
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2209463
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 225946,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2209463
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 246963,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 246963,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        268801
+      ],
+      "detected_small_box_ids": [
+        268801
+      ]
+    },
+    {
+      "image_id": 246963,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 246963,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        268801
+      ],
+      "detected_small_box_ids": [
+        268801
+      ]
+    },
+    {
+      "image_id": 246963,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 246963,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        268801
+      ],
+      "detected_small_box_ids": [
+        268801
+      ]
+    },
+    {
+      "image_id": 273617,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 273617,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269362
+      ],
+      "detected_small_box_ids": [
+        269362
+      ]
+    },
+    {
+      "image_id": 273617,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 273617,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269362
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 273617,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 1,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 273617,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        269362
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388668
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388668
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 334006,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388668
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 335177,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 335177,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388973
+      ],
+      "detected_small_box_ids": [
+        1388973
+      ]
+    },
+    {
+      "image_id": 335177,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 335177,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388973
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 335177,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 335177,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        1388973
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 343496,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 343496,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270212
+      ],
+      "detected_small_box_ids": [
+        270212
+      ]
+    },
+    {
+      "image_id": 343496,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 343496,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270212
+      ],
+      "detected_small_box_ids": [
+        270212
+      ]
+    },
+    {
+      "image_id": 343496,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 343496,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270212
+      ],
+      "detected_small_box_ids": [
+        270212
+      ]
+    },
+    {
+      "image_id": 361506,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 3,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 361506,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060506
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 361506,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 361506,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060506
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 361506,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 361506,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060506
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060466
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060466
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 369442,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        2060466
+      ],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 379800,
+      "condition": "clean",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 379800,
+      "condition": "clean",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270588
+      ],
+      "detected_small_box_ids": [
+        270588
+      ]
+    },
+    {
+      "image_id": 379800,
+      "condition": "blur",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 379800,
+      "condition": "blur",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270588
+      ],
+      "detected_small_box_ids": [
+        270588
+      ]
+    },
+    {
+      "image_id": 379800,
+      "condition": "linear",
+      "category": "traffic_light",
+      "small_boxes": 0,
+      "detected": 0,
+      "unmatched_predictions": 0,
+      "small_box_ids": [],
+      "detected_small_box_ids": []
+    },
+    {
+      "image_id": 379800,
+      "condition": "linear",
+      "category": "stop_sign",
+      "small_boxes": 1,
+      "detected": 1,
+      "unmatched_predictions": 0,
+      "small_box_ids": [
+        270588
+      ],
+      "detected_small_box_ids": [
+        270588
+      ]
+    }
+  ]
+}

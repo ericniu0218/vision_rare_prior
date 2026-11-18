@@ -1,0 +1,10 @@
+{
+ "100": {
+  "sd_S": 0.0229,
+  "halfwidth_delta_indep": 0.0634
+ },
+ "150": {
+  "sd_S": 0.0189,
+  "halfwidth_delta_indep": 0.0523
+ }
+}

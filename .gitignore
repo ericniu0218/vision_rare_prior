@@ -1,0 +1,11 @@
+artifacts/
+third_party/dps/
+third_party/diffpir/
+__pycache__/
+*.pyc
+verify_env.json
+verify_env_*.png
+.pytest_cache/
+.ruff_cache/
+logs/
+*.egg-info/

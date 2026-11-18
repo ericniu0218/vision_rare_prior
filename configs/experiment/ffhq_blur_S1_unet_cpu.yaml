@@ -1,0 +1,4 @@
+# CPU-sized U-Net for the dev pilot only (undertrained relative to the GPU config).
+defaults: ffhq_blur_S1_unet.yaml
+name: ffhq_blur_S1_unet_cpu
+unet: {steps: 2000, batch: 4, lr: 0.0003, base: 32, levels: 4, n_train: 2000}

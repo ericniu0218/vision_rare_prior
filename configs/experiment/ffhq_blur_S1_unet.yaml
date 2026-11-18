@@ -1,0 +1,7 @@
+defaults: base.yaml
+name: ffhq_blur_S1_unet
+data: {kind: ffhq_hf, repo: merkol/ffhq-256, size: 256}
+operator: {kind: blur, kernel_size: 61, std: 3.0, sigma: 0.05}
+severity: S1
+solver: {name: unet, label: unet, weights: artifacts/unet/ffhq_blur_S1/REPLACE_WITH_HASH/unet.pt}
+unet: {steps: 20000, batch: 8, lr: 0.0002, base: 48, levels: 4, n_train: 9000}

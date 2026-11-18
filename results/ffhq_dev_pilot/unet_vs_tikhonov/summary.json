@@ -1,0 +1,48 @@
+{
+  "n_images": 30,
+  "solvers": [
+    "tikhonov",
+    "unet"
+  ],
+  "pooled_survival": {
+    "tikhonov": 0.33636363636363636,
+    "unet": 0.5181818181818182
+  },
+  "pooled_ratio_median": {
+    "tikhonov": 0.278841018256341,
+    "unet": 0.2809741816736784
+  },
+  "dropped_features": 7,
+  "psnr": {
+    "tikhonov": 26.09887917836507,
+    "unet": 28.004195976257325
+  },
+  "ssim": {
+    "tikhonov": 0.7235339000315424,
+    "unet": 0.7846212065390945
+  },
+  "seconds_per_image": {
+    "tikhonov": 3.0905220031738283,
+    "unet": 0.6736893653869629
+  },
+  "counterfactual_fpr": {
+    "tikhonov": 0.06925663622092193,
+    "unet": 0.0887054413840128
+  },
+  "delta_unet_minus_tikhonov": {
+    "S_a": 0.5026844070961718,
+    "S_b": 0.31843173166702576,
+    "delta": 0.18425267542914603,
+    "ci_low": 0.05731580510992282,
+    "ci_high": 0.3089187038451744,
+    "n_images": 30,
+    "n_boot": 2000,
+    "boot_sd": 0.0645611843285867,
+    "p_value": 0.003
+  },
+  "psnr_unet_minus_tikhonov": {
+    "delta": 1.9053167978922525,
+    "ci_low": 1.624667290051778,
+    "ci_high": 2.1622937043507893
+  }
+}

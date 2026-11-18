@@ -1,0 +1,6 @@
+defaults: base.yaml
+name: ffhq_blur_S1_tikhonov
+data: {kind: ffhq_hf, repo: merkol/ffhq-256, size: 256}
+operator: {kind: blur, kernel_size: 61, std: 3.0, sigma: 0.05}
+severity: S1
+solver: {name: tikhonov, label: tikhonov, lam: 0.03, iters: 100}   # dev PSNR grid, results/ffhq_dev_pilot

@@ -1,0 +1,71 @@
+{
+  "config": {
+    "out": "results/mri_phantom",
+    "n": 128,
+    "coils": 8,
+    "n_images": 12,
+    "accels": [
+      2,
+      4,
+      6,
+      8
+    ],
+    "sigma": 0.01,
+    "amplitudes": [
+      0.1,
+      0.2
+    ]
+  },
+  "acquisition": {
+    "R2": {
+      "accel_actual": 2.0897958278656006,
+      "psnr_zero_filled": 23.288420058049855,
+      "psnr_tikhonov": 30.657259957989336,
+      "psnr_l1wavelet": 33.110784621450954
+    },
+    "R4": {
+      "accel_actual": 4.075622081756592,
+      "psnr_zero_filled": 20.25714370689788,
+      "psnr_tikhonov": 27.157081769445725,
+      "psnr_l1wavelet": 31.600589774794187
+    },
+    "R6": {
+      "accel_actual": 5.944847583770752,
+      "psnr_zero_filled": 19.522275640628234,
+      "psnr_tikhonov": 24.752024979867198,
+      "psnr_l1wavelet": 29.75238127554755
+    },
+    "R8": {
+      "accel_actual": 8.027437210083008,
+      "psnr_zero_filled": 18.821817920961774,
+      "psnr_tikhonov": 23.165807125352767,
+      "psnr_l1wavelet": 27.923759599257902
+    }
+  },
+  "survival_small": {
+    "l1wavelet": {
+      "R2": 1.0,
+      "R4": 0.958,
+      "R6": 0.896,
+      "R8": 0.729
+    },
+    "tikhonov": {
+      "R2": 1.0,
+      "R4": 0.979,
+      "R6": 0.812,
+      "R8": 0.562
+    },
+    "zero_filled": {
+      "R2": 0.75,
+      "R4": 0.417,
+      "R6": 0.25,
+      "R8": 0.125
+    }
+  },
+  "median_dprime_small": {
+    "R2": 37.0,
+    "R4": 31.9,
+    "R6": 29.76,
+    "R8": 28.0
+  }
+}

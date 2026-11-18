@@ -1,0 +1,37 @@
+{
+ "dps": {
+  "n_features": 12,
+  "median_ratio_all": 0.139,
+  "median_ratio_small": 0.088
+ },
+ "unet": {
+  "n_features": 12,
+  "median_ratio_all": 0.364,
+  "median_ratio_small": 0.278
+ },
+ "tikhonov": {
+  "n_features": 12,
+  "median_ratio_all": 0.362,
+  "median_ratio_small": 0.281
+ },
+ "diffpir": {
+  "n_features": 12,
+  "median_ratio_all": 0.439,
+  "median_ratio_small": 0.392
+ },
+ "dps_minus_unet_per_feature": {
+  "mean": -0.27,
+  "n_dps_lower": 12,
+  "n": 12,
+  "naive_feature_bootstrap_ci": [
+   -0.359,
+   -0.185
+  ]
+ },
+ "psnr_2_images": {
+  "dps": 26.21,
+  "unet": 29.84,
+  "tikhonov": 27.5,
+  "diffpir": 26.05
+ }
+}

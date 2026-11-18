@@ -1,0 +1,50 @@
+{
+  "n_images": 30,
+  "solvers": [
+    "tikhonov",
+    "unet"
+  ],
+  "pooled_survival": {
+    "tikhonov": 0.2727272727272727,
+    "unet": 0.4090909090909091
+  },
+  "pooled_ratio_median": {
+    "tikhonov": 0.27884252888192945,
+    "unet": 0.26343301028336047
+  },
+  "dropped_features": 7,
+  "psnr": {
+    "tikhonov": 26.09887917836507,
+    "unet": 26.78440793355306
+  },
+  "ssim": {
+    "tikhonov": 0.7235339352292731,
+    "unet": 0.7451376846132257
+  },
+  "seconds_per_image": {
+    "tikhonov": 1.2105862935384115,
+    "unet": 0.42950785954793297
+  },
+  "counterfactual_fpr": {
+    "tikhonov": 0.05866008991008991,
+    "unet": 0.052166583416583416
+  },
+  "delta_unet_minus_tikhonov": {
+    "S_a": 0.4090909090909091,
+    "S_b": 0.2727272727272727,
+    "delta": 0.1363636363636364,
+    "ci_low": 0.04347826086956519,
+    "ci_high": 0.23423423423423423,
+    "n_images": 30,
+    "n_boot": 10000,
+    "n_boot_valid": 10000,
+    "pooling": "site",
+    "boot_sd": 0.04895773303220746,
+    "p_value": 0.0021997800219978004
+  },
+  "psnr_unet_minus_tikhonov": {
+    "delta": 0.6855287551879883,
+    "ci_low": 0.47803421020507814,
+    "ci_high": 0.8893689171473186
+  }
+}

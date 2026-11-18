@@ -1,0 +1,127 @@
+{
+  "kind": "synthetic circular proximal subproblem only",
+  "reference": "2a9898129a1b274131b98746e5b364bc20adc1e1",
+  "torch": "2.15.0",
+  "rows": [
+    {
+      "timestep": 999,
+      "rho": 2.5224954069802633e-08,
+      "iterations_limit": 20,
+      "relative_normal_residual": 0.008454222549263125,
+      "direct_fft_rms_difference": 5.455847820987274e-09,
+      "rms_difference": 30.26941320473352
+    },
+    {
+      "timestep": 999,
+      "rho": 2.5224954069802633e-08,
+      "iterations_limit": 100,
+      "relative_normal_residual": 0.0008276813942605251,
+      "direct_fft_rms_difference": 5.455847820987274e-09,
+      "rms_difference": 29.724944058031404
+    },
+    {
+      "timestep": 999,
+      "rho": 2.5224954069802633e-08,
+      "iterations_limit": 500,
+      "relative_normal_residual": 0.0010775859941636577,
+      "direct_fft_rms_difference": 5.455847820987274e-09,
+      "rms_difference": 11.46283249980579
+    },
+    {
+      "timestep": 600,
+      "rho": 1.6398963026246995e-05,
+      "iterations_limit": 20,
+      "relative_normal_residual": 0.00836525913228856,
+      "direct_fft_rms_difference": 7.467713684818197e-10,
+      "rms_difference": 1.1342079239645722
+    },
+    {
+      "timestep": 600,
+      "rho": 1.6398963026246995e-05,
+      "iterations_limit": 100,
+      "relative_normal_residual": 0.0001824202764272895,
+      "direct_fft_rms_difference": 7.467713684818197e-10,
+      "rms_difference": 0.11137019612626549
+    },
+    {
+      "timestep": 600,
+      "rho": 1.6398963026246995e-05,
+      "iterations_limit": 500,
+      "relative_normal_residual": 3.765278425212504e-11,
+      "direct_fft_rms_difference": 7.467713684818197e-10,
+      "rms_difference": 3.978558454168966e-08
+    },
+    {
+      "timestep": 250,
+      "rho": 0.0006809550291518814,
+      "iterations_limit": 20,
+      "relative_normal_residual": 0.005651170322873329,
+      "direct_fft_rms_difference": 7.453639592612808e-10,
+      "rms_difference": 0.07722981770863774
+    },
+    {
+      "timestep": 250,
+      "rho": 0.0006809550291518814,
+      "iterations_limit": 100,
+      "relative_normal_residual": 1.797802965991915e-10,
+      "direct_fft_rms_difference": 7.453639592612808e-10,
+      "rms_difference": 6.76351276918325e-09
+    },
+    {
+      "timestep": 250,
+      "rho": 0.0006809550291518814,
+      "iterations_limit": 500,
+      "relative_normal_residual": 9.33442975198258e-11,
+      "direct_fft_rms_difference": 7.453639592612808e-10,
+      "rms_difference": 2.0207946953096835e-09
+    },
+    {
+      "timestep": 50,
+      "rho": 0.020174702706588738,
+      "iterations_limit": 20,
+      "relative_normal_residual": 3.277155898451989e-05,
+      "direct_fft_rms_difference": 7.313254407054978e-10,
+      "rms_difference": 3.2309214456114554e-05
+    },
+    {
+      "timestep": 50,
+      "rho": 0.020174702706588738,
+      "iterations_limit": 100,
+      "relative_normal_residual": 3.870147484305618e-11,
+      "direct_fft_rms_difference": 7.313254407054978e-10,
+      "rms_difference": 7.319077466039758e-10
+    },
+    {
+      "timestep": 50,
+      "rho": 0.020174702706588738,
+      "iterations_limit": 500,
+      "relative_normal_residual": 3.870147484305618e-11,
+      "direct_fft_rms_difference": 7.313254407054978e-10,
+      "rms_difference": 7.319077466039758e-10
+    },
+    {
+      "timestep": 1,
+      "rho": 2.8414735359148016,
+      "iterations_limit": 20,
+      "relative_normal_residual": 6.070557309905216e-11,
+      "direct_fft_rms_difference": 1.942160999815245e-10,
+      "rms_difference": 1.941337594172403e-10
+    },
+    {
+      "timestep": 1,
+      "rho": 2.8414735359148016,
+      "iterations_limit": 100,
+      "relative_normal_residual": 6.070557309905216e-11,
+      "direct_fft_rms_difference": 1.942160999815245e-10,
+      "rms_difference": 1.941337594172403e-10
+    },
+    {
+      "timestep": 1,
+      "rho": 2.8414735359148016,
+      "iterations_limit": 500,
+      "relative_normal_residual": 6.070557309905216e-11,
+      "direct_fft_rms_difference": 1.942160999815245e-10,
+      "rms_difference": 1.941337594172403e-10
+    }
+  ]
+}

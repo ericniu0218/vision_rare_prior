@@ -1,0 +1,250 @@
+{
+  "training": {
+    "config": {
+      "data": {
+        "kind": "ffhq_hf",
+        "repo": "merkol/ffhq-256",
+        "size": 256
+      },
+      "operator": {
+        "kind": "blur",
+        "kernel_size": 61,
+        "std": 3.0,
+        "sigma": 0.05
+      },
+      "unet": {
+        "steps": 200,
+        "batch": 4,
+        "lr": 0.0003,
+        "base": 32,
+        "levels": 4,
+        "n_train": 256,
+        "seed": 0
+      },
+      "code_commit": "ca5bb63d35211e3a004e28834e356bec23f7cf2a",
+      "backend": "cpu",
+      "torch_version": "2.15.0"
+    },
+    "config_hash": "31e0279ac928",
+    "split": "train",
+    "git_sha": "ca5bb63d35211e3a004e28834e356bec23f7cf2a",
+    "versions": {
+      "python": "3.12.13",
+      "torch": "2.15.0",
+      "numpy": "2.5.4",
+      "scipy": "1.18.1",
+      "sigpy": "0.1.27",
+      "pandas": "3.1.1",
+      "statsmodels": "0.15.0"
+    },
+    "device": "cpu",
+    "time_utc": "2026-11-10T02:30:34Z",
+    "weights_sha256": "72afbe1a280ff1897e1d3ce272c683589e69999bd3ca3c7f3b610559449a9704"
+  },
+  "runs": [
+    {
+      "config": {
+        "out_root": "/tmp/bair-audit-final",
+        "split": "dev",
+        "arm": "ffhq_blur",
+        "severity": "S1",
+        "counterfactual": true,
+        "lpips": false,
+        "save_full": 0,
+        "insert": {
+          "n_features": 6,
+          "n_controls": 8,
+          "margin": 32,
+          "min_sep": 48,
+          "ctrl_sep": 24,
+          "dprimes": [
+            1.0,
+            2.0
+          ],
+          "dprime_kind": "bks",
+          "power_spectrum": "results/ffhq_power_spectrum_256.pt",
+          "value_range": [
+            -1.0,
+            1.0
+          ]
+        },
+        "name": "ffhq_blur_S1_tikhonov",
+        "data": {
+          "kind": "ffhq_hf",
+          "repo": "merkol/ffhq-256",
+          "size": 256
+        },
+        "operator": {
+          "kind": "blur",
+          "kernel_size": 61,
+          "std": 3.0,
+          "sigma": 0.05
+        },
+        "solver": {
+          "name": "tikhonov",
+          "label": "tikhonov",
+          "lam": 0.03,
+          "iters": 100
+        },
+        "input_sha256": {
+          "power_spectrum": "70cd3b9e22feb9a8c5ef430cddcb460e9c4cbd08e3f55dcedaeb450edbf36b3b"
+        },
+        "image_ids": [
+          69100,
+          69101,
+          69102,
+          69103,
+          69104,
+          69105,
+          69106,
+          69107,
+          69108,
+          69109,
+          69110,
+          69111,
+          69112,
+          69113,
+          69114,
+          69115,
+          69116,
+          69117,
+          69118,
+          69119,
+          69120,
+          69121,
+          69122,
+          69123,
+          69124,
+          69125,
+          69126,
+          69127,
+          69128,
+          69129
+        ],
+        "code_commit": "c6f709d46ddb8bc70b99eaf99aa5d6665734e0ae",
+        "torch_version": "2.15.0",
+        "backend": "cpu"
+      },
+      "config_hash": "4f43f11761aa",
+      "split": "dev",
+      "git_sha": "c6f709d46ddb8bc70b99eaf99aa5d6665734e0ae",
+      "versions": {
+        "python": "3.12.13",
+        "torch": "2.15.0",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "sigpy": "0.1.27",
+        "pandas": "3.1.1",
+        "statsmodels": "0.15.0"
+      },
+      "device": "cpu",
+      "time_utc": "2026-11-10T02:34:10Z"
+    },
+    {
+      "config": {
+        "out_root": "/tmp/bair-audit-final",
+        "split": "dev",
+        "arm": "ffhq_blur",
+        "severity": "S1",
+        "counterfactual": true,
+        "lpips": false,
+        "save_full": 0,
+        "insert": {
+          "n_features": 6,
+          "n_controls": 8,
+          "margin": 32,
+          "min_sep": 48,
+          "ctrl_sep": 24,
+          "dprimes": [
+            1.0,
+            2.0
+          ],
+          "dprime_kind": "bks",
+          "power_spectrum": "results/ffhq_power_spectrum_256.pt",
+          "value_range": [
+            -1.0,
+            1.0
+          ]
+        },
+        "name": "ffhq_blur_S1_unet",
+        "data": {
+          "kind": "ffhq_hf",
+          "repo": "merkol/ffhq-256",
+          "size": 256
+        },
+        "operator": {
+          "kind": "blur",
+          "kernel_size": 61,
+          "std": 3.0,
+          "sigma": 0.05
+        },
+        "solver": {
+          "name": "unet",
+          "label": "unet",
+          "weights": "/tmp/bair-seeded/unet/ffhq_blur_S1_unet_cpu/31e0279ac928/unet.pt"
+        },
+        "unet": {
+          "steps": 20000,
+          "batch": 8,
+          "lr": 0.0002,
+          "base": 48,
+          "levels": 4,
+          "n_train": 9000
+        },
+        "input_sha256": {
+          "weights": "72afbe1a280ff1897e1d3ce272c683589e69999bd3ca3c7f3b610559449a9704",
+          "power_spectrum": "70cd3b9e22feb9a8c5ef430cddcb460e9c4cbd08e3f55dcedaeb450edbf36b3b"
+        },
+        "image_ids": [
+          69100,
+          69101,
+          69102,
+          69103,
+          69104,
+          69105,
+          69106,
+          69107,
+          69108,
+          69109,
+          69110,
+          69111,
+          69112,
+          69113,
+          69114,
+          69115,
+          69116,
+          69117,
+          69118,
+          69119,
+          69120,
+          69121,
+          69122,
+          69123,
+          69124,
+          69125,
+          69126,
+          69127,
+          69128,
+          69129
+        ],
+        "code_commit": "c6f709d46ddb8bc70b99eaf99aa5d6665734e0ae",
+        "torch_version": "2.15.0",
+        "backend": "cpu"
+      },
+      "config_hash": "89c0e4f2744c",
+      "split": "dev",
+      "git_sha": "c6f709d46ddb8bc70b99eaf99aa5d6665734e0ae",
+      "versions": {
+        "python": "3.12.13",
+        "torch": "2.15.0",
+        "numpy": "2.5.4",
+        "scipy": "1.18.1",
+        "sigpy": "0.1.27",
+        "pandas": "3.1.1",
+        "statsmodels": "0.15.0"
+      },
+      "device": "cpu",
+      "time_utc": "2026-11-10T02:34:50Z"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "n_images": 30,
+  "solvers": [
+    "tikhonov"
+  ],
+  "pooled_survival": {
+    "tikhonov": 0.09243697478991597
+  },
+  "pooled_ratio_median": {
+    "tikhonov": 0.24394248243729666
+  },
+  "dropped_features": 0,
+  "psnr": {
+    "tikhonov": 26.119230524698892
+  },
+  "ssim": {
+    "tikhonov": 0.6680067339389217
+  },
+  "seconds_per_image": {
+    "tikhonov": 38.93319650491079
+  },
+  "counterfactual_fpr": {
+    "tikhonov": 0.06916997568258074
+  }
+}

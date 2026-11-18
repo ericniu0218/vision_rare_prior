@@ -1,0 +1,34 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["rareprior*"]
+
+[project]
+name = "rareprior"
+version = "0.1.0"
+description = "Diffusion priors erase the rare: measuring rare-feature survival in diffusion-based image reconstruction"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.1", "numpy", "scipy", "pandas", "statsmodels", "pyyaml", "huggingface_hub", "pillow"]
+
+[project.optional-dependencies]
+mri = ["sigpy", "h5py"]
+data = ["datasets", "pyarrow", "tifffile"]
+eval = ["lpips"]
+dev = ["pytest", "ruff", "matplotlib", "tqdm"]
+
+[tool.pytest.ini_options]
+markers = ["slow: long-running statistical tests", "gpu: needs a GPU and real checkpoints"]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+exclude = ["rareprior/diffusion/guided", "third_party"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "B"]
+ignore = ["E731", "B008", "E741", "B905", "E702"]
+
+[tool.ruff.lint.per-file-ignores]
+"scripts/*" = ["E402"]

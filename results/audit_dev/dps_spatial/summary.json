@@ -1,0 +1,25 @@
+{
+  "device": "cpu",
+  "blur_backend": "spatial",
+  "checkpoint_sha256": "81d535743156ec6be34d8668e6920da94f0614074d7793a16c8fa9e306237faa",
+  "network_output_max_diff": 0.0,
+  "operator_max_diff": 0.0,
+  "respacing": "1000",
+  "step_max_diffs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "same_input_step_max_diffs": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "cumulative_pass_1e_5": true,
+  "own_seconds_per_step": 3.0697678089141847,
+  "torch": "2.15.0"
+}

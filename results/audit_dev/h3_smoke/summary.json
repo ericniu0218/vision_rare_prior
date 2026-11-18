@@ -1,0 +1,27 @@
+{
+  "diffpir/S1": {
+    "n_images": 4,
+    "n_sites": 55,
+    "n_erased": 8,
+    "auprc": {
+      "det_residual": 0.3996046371046371,
+      "det_pixel_pair": 0.1405820818141055,
+      "det_variance": 0.1905078592578593
+    },
+    "auroc": {
+      "det_residual": 0.7340425531914894,
+      "det_pixel_pair": 0.4122340425531915,
+      "det_variance": 0.48404255319148937
+    },
+    "det_residual_minus_variance": {
+      "delta": 0.25,
+      "ci_low": -0.037878787878787845,
+      "ci_high": 0.4946808510638298
+    },
+    "det_pixel_pair_minus_variance": {
+      "delta": -0.07180851063829785,
+      "ci_low": -0.30980392156862746,
+      "ci_high": 0.026239067055393583
+    }
+  }
+}

@@ -1,0 +1,7 @@
+# Primary arm (H1): FFHQ, official DPS Gaussian-deblur setting, own DPS, K = 4. GPU.
+defaults: base.yaml
+name: ffhq_blur_S1_dps
+data: {kind: ffhq_hf, repo: merkol/ffhq-256, size: 256}
+operator: {kind: blur, kernel_size: 61, std: 3.0, sigma: 0.05}
+severity: S1
+solver: {name: dps, label: dps, prior: ffhq, steps: 1000, scale: 0.3, K: 4}

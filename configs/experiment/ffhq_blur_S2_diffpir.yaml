@@ -1,0 +1,6 @@
+defaults: base.yaml
+name: ffhq_blur_S2_diffpir
+data: {kind: ffhq_hf, repo: merkol/ffhq-256, size: 256}
+operator: {kind: blur, kernel_size: 61, std: 4.0, sigma: 0.05}
+severity: S2
+solver: {name: diffpir, label: diffpir, prior: ffhq, lam: 1.0, zeta: 0.1, nfe: 100, cg_iters: 20, K: 4}
